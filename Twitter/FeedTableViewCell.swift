@@ -9,20 +9,16 @@
 import UIKit
 
 class FeedTableViewCell: UITableViewCell {
-
+    
+    
     @IBOutlet weak var tweetDetails: UILabel!
     @IBOutlet weak var username: UILabel!
     @IBOutlet weak var profilePicture: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
-     //   tweetDetails.setTranslatesAutoresizingMaskIntoConstraints(false)
-        // Initialization code
     }
-
+    
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
-
 }
